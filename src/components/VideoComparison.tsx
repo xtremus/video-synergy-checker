@@ -1,3 +1,4 @@
+
 import { useState, useEffect, useRef } from 'react';
 import { toast } from '@/components/ui/use-toast';
 import VideoPlayer from './VideoPlayer';
@@ -10,6 +11,7 @@ import { cn } from '@/lib/utils';
 
 // Import sample videos
 import sampleMp4 from '../assets/videos/sample.mp4';
+// Use the correct import path with extension
 import sampleM3u8 from '../assets/videos/big_buck_bunny_1080p/output.m38';
 
 const VideoComparison = () => {
